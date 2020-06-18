@@ -7,27 +7,53 @@
   background-image: url(/img/large/bg.jpg);
   height: 100vh;
   background-size: cover;
-  position: relative; }
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden; }
 
-.img__girl {
-  position: absolute;
-  height: 100vh; }
-
-.img__leaf-1 {
-  position: absolute;
-  height: 100vh; }
-
-.img__leaf-2 {
-  position: absolute;
-  height: 100vh; }
-
-.img__circle-1 {
-  position: absolute;
-  height: 100vh; }
-
+.img__girl,
+.img__leaf-1,
+.img__leaf-2,
+.img__circle-1,
 .img__circle-2 {
   position: absolute;
-  height: 100vh; }
+  width: 100%; }
+
+.main-page__shopping-girl {
+  position: absolute;
+  top: 5vh; }
+
+.img__girl {
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: auto; }
+
+.img__leaf-1 {
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: auto; }
+
+.img__leaf-2 {
+  right: 25%;
+  top: 0;
+  height: 20vh;
+  width: auto;
+  right: 5vw; }
+
+.img__circle-1 {
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: auto; }
+
+.img__circle-2 {
+  right: -4%;
+  bottom: 5%;
+  height: 20vh;
+  width: auto; }
 
 .title__main {
   font-size: 86px;
