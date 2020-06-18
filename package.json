@@ -1,0 +1,14 @@
+{
+  "name": "summer_banner_design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Andrii Chemerys",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
