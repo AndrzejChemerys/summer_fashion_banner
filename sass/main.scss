@@ -1,18 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .main-page {
-    background-image: url(/img/large/bg.jpg);
-    height: 100vh;
-    // width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
+  background-image: url(/img/large/bg.jpg);
+  height: 100vh;
+  // width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .img__girl,
@@ -20,61 +26,85 @@
 .img__leaf-2,
 .img__circle-1,
 .img__circle-2 {
-    position: absolute;
-    width: 100%;
-    // min-height: 1000px;
+  position: absolute;
+  width: 100%;
+  // min-height: 1000px;
 }
 
 .main-page__shopping-girl {
-    position: absolute;
-    top: 5vh;
+  position: absolute;
+  top: 5vh;
 }
 
 .img__girl {
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: auto;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: auto;
 }
 
 .img__leaf-1 {
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: auto;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: auto;
 }
 
 .img__leaf-2 {
-    right: 25%;
-    top: 0;
-    height: 20vh;
-    width: auto;
-    right: 5vw;
+  right: 25%;
+  top: 0;
+  height: 20vh;
+  width: auto;
+  right: 5vw;
 }
 
 .img__circle-1 {
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: auto;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: auto;
 }
 
 .img__circle-2 {
-    right: -4%;
-    bottom: 5%;
-    height: 20vh;
-    width: auto;
-    // right: 5vw;
+  right: -4%;
+  bottom: 5%;
+  height: 20vh;
+  width: auto;
+  // right: 5vw;
+}
+
+.main-page__text-section {
+  //   width: 100%;
+  font-size: 56px;
+  color: white;
+  position: absolute;
+  top: 20vh;
+  left: 46vw;
 }
 
 .title__main {
-    font-size: 86px;
-    color: white;
-    position: absolute;
-    top: 40vh;
-    left: 60vw;
+  font-family: "Oleo Script", cursive;
+  text-align: center;
+  font-size: 6vw;
+  font-weight: 200;
+  line-height: 70px;
 }
 
-.title__second {}
+.title__second {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 8vw;
+  text-align: center;
+  line-height: 140px;
+}
 
-.title__third {}
+.title__third {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 20px;
+  text-align: center;
+  font-size: 4vw;
+  line-height: 50px;
+}
