@@ -141,3 +141,28 @@
   font-weight: 400;
   font-size: 14px;
 }
+
+.main-page {
+  display: none;
+}
+
+// #########################################
+
+.tablet-page {
+  background-image: url(/img/medium/bg-img.png);
+  height: 100vh;
+  // width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-medium {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: auto;
+}
