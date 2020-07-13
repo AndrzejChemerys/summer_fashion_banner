@@ -11,7 +11,7 @@
 }
 
 .main-page {
-  background-image: url(img/large/bg.jpg);
+  background-image: url(../img/large/bg.jpg);
   height: 100vh;
   // width: 100%;
   background-size: cover;
@@ -149,7 +149,7 @@
 // #########################################
 
 .tablet-page {
-  background-image: url(img/medium/bg-img.png);
+  background-image: url(../img/medium/bg-img.png);
   height: 100vh;
   // width: 100%;
   background-size: cover;
@@ -212,7 +212,7 @@
 // #########################################
 
 .mobile-page {
-  background-image: url(img/small/bg-img.png);
+  background-image: url(../img/small/bg-img.png);
   height: 100vh;
   // width: 100%;
   background-size: cover;
@@ -245,13 +245,24 @@
   right: 0;
 }
 
+.tablet-page {
+  display: none;
+}
+
+.mobile-page {
+  display: none;
+}
+
+
 @media only screen and (max-width: 960px) {
   .tablet-page {
     display: block;
   }
+
   .mobile-page {
     display: none;
   }
+
   .main-page {
     display: none;
   }
@@ -261,9 +272,11 @@
   .tablet-page {
     display: none;
   }
+
   .mobile-page {
     display: block;
   }
+
   .main-page {
     display: none;
   }
