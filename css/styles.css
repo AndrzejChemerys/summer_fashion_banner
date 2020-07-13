@@ -148,6 +148,14 @@
   height: 100vh;
   width: auto; }
 
+.tablet-page__sale-item-text {
+  position: relative;
+  z-index: 1;
+  left: 5vw;
+  top: 50vh;
+  height: 100vh;
+  width: auto; }
+
 .mobile-page {
   background-image: url(/img/small/bg-img.png);
   height: 100vh;

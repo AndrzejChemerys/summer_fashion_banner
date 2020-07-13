@@ -193,6 +193,18 @@
   width: auto;
 }
 
+.tablet-page__sale-item-text {
+  // display: flex;
+  // align-items: center;
+  // justify-content: right;
+  position: relative;
+  z-index: 1;
+  left: 5vw;
+  top: 50vh;
+  height: 100vh;
+  width: auto;
+}
+
 // .tablet-page {
 //   display: none;
 // }
